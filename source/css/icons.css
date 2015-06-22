@@ -1,0 +1,11 @@
+/*icon*/
+[class^="iconmuch-"], [class*=" iconmuch-"] {
+    display: inline-block;
+    *margin-right: .3em;
+    vertical-align: text-top;
+    background-image: url("../img/front/sprite.png");
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+.iconmuch-designBy{background-position:-210px -69px;height:28px;line-height:28px;width:107px;}
+

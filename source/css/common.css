@@ -1,0 +1,78 @@
+/*----- reset -----*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, img, strong, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, thead, tbody, tfoot, tr, th, td{border:0;font-family:inherit;font-size:100%;margin:0;outline:0;padding:0;}
+:focus{outline:0;}
+ol, ul{list-style:none;}
+table{border-collapse: collapse;border-spacing: 0;width: 100%;}
+img{vertical-align:top}
+/*----- common -----*/
+html,body{height: 100%;}
+body{background-color:#fff;color:#000;font:normal normal 100% Arial, Helvetica, sans-serif;line-height:1.5em;font-size:.75em;}
+input,select,textarea{color:#38444f;font:normal normal 1em Arial, Helvetica, sans-serif;}
+input{border:0}
+input[type="search"]{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+input[type="checkbox"],input[type="radio"]{box-sizing: border-box;padding: 0;}
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,*:after{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a:link, a:visited{color:#114285;}
+a:hover{color:#94c03d}
+a:link,a:visited,a:hover,a:focus{
+text-decoration:none;outline:0;
+-webkit-transition:all 0.2s ease-in-out;
+     -moz-transition:all 0.2s ease-in-out;
+       -o-transition:all 0.2s ease-in-out;
+          transition:all 0.2s ease-in-out;
+}
+img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;-ms-interpolation-mode:bicubic;}
+/*wrapper*/
+#wrapper{height:auto;margin:0 auto -60px;min-height:100%;padding:0 0 60px;}
+/*----- Header -----*/
+#header{background-color:#339900;color:#fff;}
+#header h1{padding:20px 0;font-weight: bold;font-size: 20px}
+/*----- Content -----*/
+#main-content{min-height:100%;margin:20px 0}
+.title{font-size: 20px;color:#339900;font-weight: bold;margin-bottom: 20px}
+/*----- Footer -----*/
+#footer{color:#fff;background-color:#339900;height:60px}
+#footer p{padding:21px 0;}
+/*Media Query*/
+@media (max-width: 1600px) {
+    
+}
+@media (max-width: 1370px) {
+    
+}
+@media (max-width: 1050px) {
+    
+}
+@media (max-width: 980px) {
+
+}
+@media (max-width: 850px) {
+	.left-content,.main-content{margin-bottom:20px}
+}
+@media (max-width: 790px) {
+    
+}
+@media (max-width: 650px) {
+    
+}
+@media (max-width: 550px) {
+    
+}
+@media (max-width: 450px) {
+    
+}
+
